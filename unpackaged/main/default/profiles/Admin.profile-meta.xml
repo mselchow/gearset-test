@@ -3152,6 +3152,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Award__c-Award Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3490,11 +3493,27 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>standard-ActiveScratchOrg</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AppointmentInvitation</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-CommSubscription</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContactRequest</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-NamespaceRegistry</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ScratchOrgInfo</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3955,7 +3974,7 @@
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>AIViewInsightObjects</name>
     </userPermissions>
     <userPermissions>
@@ -4049,6 +4068,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ClientSecretRotation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -4484,6 +4507,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>Packaging2PromoteVersion</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -4647,7 +4674,7 @@
         <name>ViewHelpLink</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ViewMLModels</name>
     </userPermissions>
     <userPermissions>

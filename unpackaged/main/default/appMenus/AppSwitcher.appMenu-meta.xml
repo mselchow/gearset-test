@@ -84,4 +84,8 @@
         <name>standard__DataManager</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_nocjv16ydf6qxvzner4z</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
